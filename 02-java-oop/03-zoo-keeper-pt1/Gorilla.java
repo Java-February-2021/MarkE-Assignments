@@ -16,4 +16,4 @@ class Gorilla extends Mammal {
         System.out.println("The gorilla climbed a tree. Energy decreased by 10");
         this.energyLevel -= 10;
     }
-}
+} 

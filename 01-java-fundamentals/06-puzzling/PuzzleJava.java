@@ -47,6 +47,11 @@ public class PuzzleJava {
         Random random = new Random();
         for (int i = 0; i < list.length; i++) {
             list[i] = random.nextInt(bounds) +lower;
+            if (list[i] > 5) {
+                System.out.println("sucess!");
+            } else {
+                System.out.println("fail!");
+            }
         }
         Arrays.sort(list);
         System.out.println(Arrays.toString(list));
